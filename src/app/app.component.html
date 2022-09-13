@@ -1,0 +1,5 @@
+<button (click)="isShowData = !isShowData">Toggle Data Component</button>
+
+<ng-container *ngIf="isShowData">
+  <app-data></app-data>
+</ng-container>
